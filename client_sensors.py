@@ -1,8 +1,8 @@
 from requests import get, post
 import time
 
-base_url = 'http://34.154.14.199:80'
-#base_url = 'http://localhost'
+#base_url = 'http://34.154.14.199:80'
+base_url = 'http://localhost'
 sensor = 's1'
 #leggo il file
 with open('CleanData_PM10.csv') as f:
